@@ -3,6 +3,40 @@ body {
 	font-family: Arial;
 }
 
-h1 {
+h1, h2 {
 	text-align: center ;
+
 }
+
+.container {
+    display: flex;
+    border: solid;
+    padding: ;
+    display: block;
+}
+
+.my-rect {
+  fill: #f33;
+}
+
+.my-rect:hover {
+  fill: #000;
+}
+
+.my-circle {
+  fill: #f85;
+}
+
+.my-circle:hover {
+  fill: #000;
+}
+
+.citations {
+	text-align: center;
+	list-style-position: inside;
+}
+
+.caption {
+    display: block;
+}
+
